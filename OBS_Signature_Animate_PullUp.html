@@ -1,0 +1,49 @@
+<html>
+<head>
+<style>
+.signature {
+margin-left:-750px;
+opacity:0.0;
+font-size:10em;
+font-family:Arial;
+color:white;
+background-image: linear-gradient(to left, transparent, #515151);
+width:100%;
+position:absolute;
+Bottom:0px;
+}
+.text {
+font-size:10em;
+font-family:Arial;
+color:white;
+Bottom:0px;
+position:absolute;
+margin-bottom:-250px;
+}
+</style>
+<script type="text/javascript" src="jquery.js" ></script>
+<script>
+$(document).ready(function(){
+
+		$("#runAni").animate({marginLeft: "0px",opacity: "1.0"},2000, function() {
+    $("#runAni").animate({opacity: "0.0"},5000);
+  });
+		$("#runAn2").animate({marginBottom: "0px",opacity: "1.0"},2000, function() {
+    $("#runAn2").animate({opacity: "0.0"},5000);
+  });
+});
+
+
+</script>
+</head>
+
+<body style="background-oolor:transparent;">
+<div id="runAni" class="signature">
+&nbsp; 
+</div>
+<div id="runAn2" class="text">
+&nbsp; Photolearningism
+</div>
+</body>
+
+</html>
